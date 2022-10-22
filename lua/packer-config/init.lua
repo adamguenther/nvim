@@ -13,4 +13,7 @@ packer.startup(function(use)
     use 'junegunn/limelight.vim'
     use 'nvim-lua/plenary.nvim' -- Common utilities
     use 'itchyny/lightline.vim'
+    use 'neovim/nvim-lspconfig' -- Config for Nvim LSP
+    use 'nvim-lua/completion-nvim'
+	use 'nvim-tree/nvim-tree.lua'
 end)
