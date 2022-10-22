@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/adam/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -81,22 +81,22 @@ _G.packer_plugins = {
   },
   ["goyo.vim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/goyo.vim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/goyo.vim",
     url = "https://github.com/junegunn/goyo.vim"
   },
   ["lightline.vim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/lightline.vim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/lightline.vim",
     url = "https://github.com/itchyny/lightline.vim"
   },
   ["limelight.vim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/limelight.vim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/limelight.vim",
     url = "https://github.com/junegunn/limelight.vim"
   },
   ["nightfox.nvim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-lspconfig"] = {
@@ -111,12 +111,12 @@ _G.packer_plugins = {
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/adam/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   }
 }
